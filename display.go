@@ -100,10 +100,14 @@ func ParseMode(s string) Mode {
 
 // OpenHostBrowser opens the URL with the platform default browser (best-effort).
 func OpenHostBrowser(rawURL string) error {
+	u, err := url.Parse(rawURL)
+	if err != nil || (u.Scheme != "http" && u.Scheme != "https") || u.Host == "" {
+		return fmt.Errorf("display: browser URL must be absolute http(s)")
+	}
 	var cmd *exec.Cmd
 	switch runtime.GOOS {
 	case "darwin":
-		cmd = exec.Command("open", rawURL)
+		cmd = exec.Command("open", "--", rawURL)
 	case "linux":
 		cmd = exec.Command("xdg-open", rawURL)
 	case "windows":
