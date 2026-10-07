@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/whaleshell/whaleshell-display/actions/workflows/ci.yml"><img src="https://github.com/whaleshell/whaleshell-display/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://pkg.go.dev/github.com/whaleshell/whaleshell-display"><img src="https://pkg.go.dev/badge/github.com/whaleshell/whaleshell-display.svg" alt="Go Reference"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+  <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
   <a href="https://github.com/whaleshell/whaleshell-display"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
 </p>
 <p align="center">
@@ -17,6 +17,8 @@
 ---
 
 ## Overview
+
+The [image reference](https://whaleshell.github.io/reference/images/) describes the GUI image used with this module.
 
 **whaleshell-display** helpers wire noVNC publish mode, password generation, and browser open helpers used by `whaleshell sandbox create --display novnc`.
 
@@ -32,9 +34,7 @@
 
 ## Installation
 
-```bash
-go get github.com/whaleshell/whaleshell-display@latest
-```
+For local development, use the sibling `go.work` workspace and run `go test ./...` here. The existing alpha tag has an older module path; a new tag is needed before standalone `go get` works.
 
 **Requirements:** Go 1.27+. GUI image: `ghcr.io/whaleshell/whaleshell/sandboxes/gui`.
 
@@ -70,4 +70,4 @@ whaleshell sandbox create --name gui --from gui --display novnc \
 
 ## License
 
-[MIT](./LICENSE) © whaleshell
+[Apache-2.0](./LICENSE) © whaleshell
