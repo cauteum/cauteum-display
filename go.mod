@@ -1,5 +1,5 @@
-module github.com/whaleshell/whaleshell-display
+module github.com/cauteum/cauteum-display
 
 go 1.27.0
 
-require github.com/whaleshell/whaleshell-core v0.1.0-alpha.2
+require github.com/cauteum/cauteum-core v0.1.0-alpha.2
