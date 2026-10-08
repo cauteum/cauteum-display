@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/whaleshell/whaleshell-core"
-	"github.com/whaleshell/whaleshell-core/defaults"
+	"github.com/cauteum/cauteum-core"
+	"github.com/cauteum/cauteum-core/defaults"
 )
 
 // Mode selects how the agent GUI is exposed to the operator.
