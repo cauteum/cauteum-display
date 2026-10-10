@@ -5,13 +5,13 @@
   Passworded noVNC surfaces for Debian GUI sandboxes.
 </p>
 <p align="center">
-  <a href="https://github.com/cauteum/cauteum-display/actions/workflows/ci.yml"><img src="https://github.com/cauteum/cauteum-display/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://pkg.go.dev/github.com/cauteum/cauteum-display"><img src="https://pkg.go.dev/badge/github.com/cauteum/cauteum-display.svg" alt="Go Reference"></a>
+  <a href="https://github.com/cauteum-haven/cauteum-display/actions/workflows/ci.yml"><img src="https://github.com/cauteum-haven/cauteum-display/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://pkg.go.dev/github.com/cauteum-haven/cauteum-display"><img src="https://pkg.go.dev/badge/github.com/cauteum-haven/cauteum-display.svg" alt="Go Reference"></a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
-  <a href="https://github.com/cauteum/cauteum-display"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
+  <a href="https://github.com/cauteum-haven/cauteum-display"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
 </p>
 <p align="center">
-  <sub>Part of the <a href="https://github.com/cauteum">cauteum / cauteum</a> ecosystem</sub>
+  <sub>Part of the <a href="https://github.com/cauteum-haven">cauteum / cauteum</a> ecosystem</sub>
 </p>
 
 ---
@@ -64,9 +64,9 @@ cauteum sandbox create --name gui --from gui --display novnc \
 | Resource | Link |
 |----------|------|
 | Roadmap | [ROADMAP.md](./ROADMAP.md) |
-| Organization | [https://github.com/cauteum](https://github.com/cauteum) |
-| Organization overview | [github.com/cauteum](https://github.com/cauteum) |
-| pkg.go.dev | [`github.com/cauteum/cauteum-display`](https://pkg.go.dev/github.com/cauteum/cauteum-display) |
+| Organization | [https://github.com/cauteum](https://github.com/cauteum-haven) |
+| Organization overview | [github.com/cauteum](https://github.com/cauteum-haven) |
+| pkg.go.dev | [`github.com/cauteum-haven/cauteum-display`](https://pkg.go.dev/github.com/cauteum-haven/cauteum-display) |
 
 ## License
 

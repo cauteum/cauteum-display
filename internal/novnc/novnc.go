@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cauteum/cauteum-display"
+	"github.com/cauteum-haven/cauteum-display"
 )
 
 // Stack reports the URL for an already-published guest noVNC port.
