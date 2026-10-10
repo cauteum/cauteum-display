@@ -1,26 +1,26 @@
-<h1 align="center">cauteum-display</h1>
+<h1 align="center">cautem-display</h1>
 
 <p align="center">
   <strong>GUI / noVNC helpers</strong><br>
   Passworded noVNC surfaces for Debian GUI sandboxes.
 </p>
 <p align="center">
-  <a href="https://github.com/cautem/cauteum-display/actions/workflows/ci.yml"><img src="https://github.com/cautem/cauteum-display/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://pkg.go.dev/github.com/cautem/cauteum-display"><img src="https://pkg.go.dev/badge/github.com/cautem/cauteum-display.svg" alt="Go Reference"></a>
+  <a href="https://github.com/cautem/cautem-display/actions/workflows/ci.yml"><img src="https://github.com/cautem/cautem-display/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://pkg.go.dev/github.com/cautem/cautem-display"><img src="https://pkg.go.dev/badge/github.com/cautem/cautem-display.svg" alt="Go Reference"></a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
-  <a href="https://github.com/cautem/cauteum-display"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
+  <a href="https://github.com/cautem/cautem-display"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
 </p>
 <p align="center">
-  <sub>Part of the <a href="https://github.com/cautem">cauteum / cauteum</a> ecosystem</sub>
+  <sub>Part of the <a href="https://github.com/cautem">cautem / cautem</a> ecosystem</sub>
 </p>
 
 ---
 
 ## Overview
 
-The [image reference](https://cautem.github.io/cauteum-haven.github.io/reference/images/) describes the GUI image used with this module.
+The [image reference](https://cautem.github.io/sandbox.dev/reference/images/) describes the GUI image used with this module.
 
-**cauteum-display** helpers wire noVNC publish mode, password generation, and browser open helpers used by `cauteum sandbox create --display novnc`.
+**cautem-display** helpers wire noVNC publish mode, password generation, and browser open helpers used by `cautem sandbox create --display novnc`.
 
 ### Key Features
 
@@ -36,14 +36,14 @@ The [image reference](https://cautem.github.io/cauteum-haven.github.io/reference
 
 For local development, use the sibling `go.work` workspace and run `go test ./...` here. The existing alpha tag has an older module path; a new tag is needed before standalone `go get` works.
 
-**Requirements:** Go 1.27+. GUI image: `ghcr.io/cautem/cauteum/sandboxes/gui`.
+**Requirements:** Go 1.27+. GUI image: `ghcr.io/cautem/cautem/sandboxes/gui`.
 
 ---
 
 ## Quick Start
 
 ```bash
-cauteum sandbox create --name gui --from gui --display novnc \
+cautem sandbox create --name gui --from gui --display novnc \
   --workspace . --policy ./policies/default.yaml
 # open printed http://127.0.0.1:6080/vnc.html?password=…
 ```
@@ -66,8 +66,8 @@ cauteum sandbox create --name gui --from gui --display novnc \
 | Roadmap | [ROADMAP.md](./ROADMAP.md) |
 | Organization | [https://github.com/cautem](https://github.com/cautem) |
 | Organization overview | [github.com/cautem](https://github.com/cautem) |
-| pkg.go.dev | [`github.com/cautem/cauteum-display`](https://pkg.go.dev/github.com/cautem/cauteum-display) |
+| pkg.go.dev | [`github.com/cautem/cautem-display`](https://pkg.go.dev/github.com/cautem/cautem-display) |
 
 ## License
 
-[Apache-2.0](./LICENSE) © cauteum
+[Apache-2.0](./LICENSE) © cautem
