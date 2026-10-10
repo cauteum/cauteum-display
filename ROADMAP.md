@@ -1,6 +1,6 @@
 # Roadmap — cauteum-display
 
-Status: **v0.1.0-alpha.1** (alpha) · Depends on [cauteum-core](https://github.com/cauteum-haven/cauteum-core) `v0.1.0-alpha.1`
+Status: **v0.1.4** (stable numbered release) · Depends on [cauteum-core](https://github.com/cauteum-haven/cauteum-core) `v0.1.4`
 
 ## This module
 
