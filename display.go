@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cauteum-haven/cauteum-core"
-	"github.com/cauteum-haven/cauteum-core/defaults"
+	"github.com/cautem/cauteum-core"
+	"github.com/cautem/cauteum-core/defaults"
 )
 
 // Mode selects how the agent GUI is exposed to the operator.
