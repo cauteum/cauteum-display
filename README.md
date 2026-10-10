@@ -18,7 +18,7 @@
 
 ## Overview
 
-The [image reference](https://cauteum.github.io/reference/images/) describes the GUI image used with this module.
+The [image reference](https://cauteum-haven.github.io/reference/images/) describes the GUI image used with this module.
 
 **cauteum-display** helpers wire noVNC publish mode, password generation, and browser open helpers used by `cauteum sandbox create --display novnc`.
 
