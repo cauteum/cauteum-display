@@ -4,4 +4,4 @@ go 1.27.0
 
 toolchain go1.27.2
 
-require github.com/cauteum/cauteum-core v0.1.0-beta.1.0.20261008213715-9b32ff965bef // indirect
+require github.com/cauteum/cauteum-core v0.1.0-beta.2
