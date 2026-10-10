@@ -36,7 +36,7 @@ The [image reference](https://cauteum-haven.github.io/reference/images/) describ
 
 For local development, use the sibling `go.work` workspace and run `go test ./...` here. The existing alpha tag has an older module path; a new tag is needed before standalone `go get` works.
 
-**Requirements:** Go 1.27+. GUI image: `ghcr.io/cauteum/cauteum/sandboxes/gui`.
+**Requirements:** Go 1.27+. GUI image: `ghcr.io/cauteum-haven/cauteum/sandboxes/gui`.
 
 ---
 
